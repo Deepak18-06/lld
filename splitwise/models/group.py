@@ -1,8 +1,24 @@
-from models.user import User
-from typing import List
+class Group(object):
+	def __init__(self):
+		self.id = None
+		self.name = None
+		self.members = []
 
-class Group:
-    def __init__(self, name: str, members: list[User], creater: User) -> None:
-        self.name = name
-        self.members: list[User]= members
-        self.creater = creater
+	def setId(self,id):
+		self.id = id
+
+	def getId(self):
+		return self.id
+
+	def setName(self,name):
+		self.name = name
+
+	def getName(self):
+		return self.name
+
+	def setMembers(self,members):
+		self.members = members
+
+	def getMembers(self):
+		return self.members
+
