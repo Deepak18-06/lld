@@ -1,5 +1,6 @@
 '''
-Let's consider a real-world example of an online news portal with subscribers. When a news article is published on the portal, it needs to notify all its subscribers about the new article. This scenario fits well with the Observer Pattern.
+Let's consider a real-world example of an online news portal with subscribers. When a news article is published on the portal, 
+it needs to notify all its subscribers about the new article. This scenario fits well with the Observer Pattern.
 
 Here's how the Observer Pattern can be applied to this example:
 

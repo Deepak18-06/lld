@@ -31,7 +31,7 @@ class GooglePayPayment(PaymentStrategy):
 
 # Context class
 class ShoppingCart:
-    def __init__(self, payment_strategy):
+    def __init__(self, payment_strategy: PaymentStrategy):
         self.payment_strategy = payment_strategy
 
     def checkout(self, amount):
