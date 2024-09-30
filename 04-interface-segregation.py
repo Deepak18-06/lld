@@ -1,5 +1,5 @@
 """
-A client should not be forced to implement interfaces it doesn’t use.
+A client should not be forced to implement interfaces it doesn't use.
 """
 
 from abc import ABC, abstractmethod

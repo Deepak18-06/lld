@@ -1,6 +1,6 @@
 """
 The Abstract Factory Pattern is a creational design pattern that provides an interface for creating families of 
-related or dependent objects without specifying their concrete classes. It’s an extension of the Factory Method Pattern, 
+related or dependent objects without specifying their concrete classes. It's an extension of the Factory Method Pattern, 
 where instead of creating a single product, the Abstract Factory creates a family of related objects (products).
 
 This pattern is especially useful when you have multiple factories that produce related objects, but the exact types of 
