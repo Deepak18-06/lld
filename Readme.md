@@ -16,6 +16,7 @@
  ### Creational Pattern
     - Singleton pattern
     - Factory pattern
+    - Abstract Factory
     - Builder pattern
     - Prototype pattern
 
@@ -24,6 +25,7 @@
     - Decorator Pattern
     - Facade Pattern
     - Proxy Pattern
+    - Composite
 
  ### Behaviour Patterns
     - Observer Pattern
