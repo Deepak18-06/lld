@@ -7,6 +7,8 @@
 - slot can be of type
 
 """
+from abc import ABC, abstractmethod
+
 class VehicleType:
     CAR=1
     BIKE=2
@@ -112,4 +114,6 @@ class ParkingServer:
     def unpark(self):
         pass
 
+    def get_available_spots(self):
+        pass
 
