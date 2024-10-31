@@ -5,6 +5,10 @@
 - User should be able to perform actions like see balance, 
 withdraw balance, deposit cash
 - machine should interact with bank to get the data
+<details>
+  <summary>DB Design</summary>
+  <img src="https://raw.githubusercontent.com/Deepak18-06/lld/main/images/Blank%20diagram.png" alt="DB Design">
+</details>
 
 
 ## Entities/ dbschema
