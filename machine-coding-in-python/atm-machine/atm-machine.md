@@ -12,7 +12,7 @@ withdraw balance, deposit cash
 
 
 ## Entities/ dbschema
-```sql
+```sqlite
 CREATE TABLE Bank (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL
