@@ -90,7 +90,12 @@
     Headers: jwt/session-token
     response = {
         "users": [
-            {"name": "name1","email": "email", "company": "company"}
-        ]
+            {"name": "name1","email": "email", "company": "company"}, ...
+        ],
+        "pagination": {
+            "page_no": 1,
+            "total": 100,
+            "per_page": 10
+        }
     }
     ```
